@@ -21,4 +21,6 @@ Decorator Pattern:
 
 Attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extended functionality.
 
-  
+SOLID principle that it follows:
+
+Open/Closed Principle = Open for extension, closed for modifications
