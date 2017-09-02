@@ -1,0 +1,24 @@
+Wrongs: 
+
+1. class explosion
+2. rigid design 
+3. adding functionality to base
+
+Correction:
+
+1. Decorate at runtime
+2. Decorator object = wrapper
+
+Points to Note:
+
+1. Decorator has same supertype as the objects they Decorate
+2. Can use 1 or more Decorator to wrap an object
+3. Given that the decorator has the same supertype as the obj it decorates, we can pass around the decorated object in place of original (wrapped) obj
+4. decorator adds its own behavior either before and/or after delegating to the obj it decorates to do the rest of the job
+
+
+Decorator Pattern:
+
+Attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extended functionality.
+
+  
